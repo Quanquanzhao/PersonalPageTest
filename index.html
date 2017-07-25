@@ -9,3 +9,8 @@ title: 我的Blog
 　　	<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 　　{% endfor %}
 </ul>
+<form method="post" action="mailto:hzzhaojuanjuan@corp.netease.com">.
+	Name: <input type="text" size="10" maxlength="40" name="name" /><br />
+	Password: <input type="password" size="10" maxlength="10" name="password" /><br />
+	<input type="submit" value="Send" />
+</form>
